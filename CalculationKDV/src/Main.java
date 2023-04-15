@@ -1,11 +1,17 @@
 import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        double price,kdvRatio = 0.18;
+    public static void main(String[] args) {        
+        double price,kdvRatio;
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the price : ");
         price = input.nextDouble();
+
+        if(price<=1000){
+            kdvRatio = 0.18;
+        }else{
+            kdvRatio = 0.08;
+        }
 
         double kdvPrice = price * kdvRatio;
         double priceWithKdv = kdvPrice + price;
