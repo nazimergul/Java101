@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class NoteAverage {
     public static void main(String[] args) {
         int mat, fiz, kim, tur, tar, muz;
         double ortalama=0;
@@ -24,6 +24,6 @@ public class Main {
 
         ortalama = (mat + fiz + tur + kim + tar + muz)/6;
         System.out.println("Ortalama : " + ortalama);
-        System.out.println(ortalama>60?"Geçtiniz":"Kaldınız");
+        System.out.println(ortalama>60?"Geçtiniz":"Kaldiniz");
     }
 }
