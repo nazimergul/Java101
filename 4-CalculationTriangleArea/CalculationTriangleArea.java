@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalculationTriangleField {
+public class CalculationTriangleArea {
     public static void main(String[] args) {
         double a, b, c, u, Field;
 
