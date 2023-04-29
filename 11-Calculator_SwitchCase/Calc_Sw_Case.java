@@ -9,7 +9,7 @@ public class Calc_Sw_Case {
 
         System.out.println("1-Add\n2-Sub\n3-Mul\n4-Div");
         System.out.print("Select transaction: ");
-        int selection = input.nextInt();1
+        int selection = input.nextInt();
 
         switch(selection){
             case 1: System.out.println("Addition: "+ (num1+num2));
