@@ -8,14 +8,17 @@ public class Armstrong {
     int loopNum = num;
     int loopNumAux = 0;
     int i = 1;
+    int totalOfDecPl = 0;
     while (loopNum != 0) {
       loopNumAux = loopNum % (10);
       loopNum = (loopNum - loopNumAux) / 10;
       System.out.println("Decimal place: " + loopNumAux);
+      totalOfDecPl += loopNumAux;
       i += 1;
     }
     int decPl = i - 1;
     System.out.println("Total decimal places: " + decPl);
+    System.out.println("Total of decimal places: " + totalOfDecPl);
     loopNum = num;
     loopNumAux = 0;
     int armstrongNum = 0;
